@@ -1,0 +1,68 @@
+========================================
+Date: Mon Jul  6 07:13:40 PM +0330 2026
+Target Server: 127.0.0.1
+========================================
+
+========== 1. Latency (Ping RTT) ==========
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.027 ms
+64 bytes from 127.0.0.1: icmp_seq=2 ttl=64 time=0.035 ms
+64 bytes from 127.0.0.1: icmp_seq=3 ttl=64 time=0.045 ms
+64 bytes from 127.0.0.1: icmp_seq=4 ttl=64 time=0.053 ms
+64 bytes from 127.0.0.1: icmp_seq=5 ttl=64 time=0.057 ms
+64 bytes from 127.0.0.1: icmp_seq=6 ttl=64 time=0.083 ms
+64 bytes from 127.0.0.1: icmp_seq=7 ttl=64 time=0.075 ms
+64 bytes from 127.0.0.1: icmp_seq=8 ttl=64 time=0.036 ms
+64 bytes from 127.0.0.1: icmp_seq=9 ttl=64 time=0.083 ms
+64 bytes from 127.0.0.1: icmp_seq=10 ttl=64 time=0.081 ms
+
+--- 127.0.0.1 ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9199ms
+rtt min/avg/max/mdev = 0.027/0.057/0.083/0.020 ms
+
+========== 2. Bandwidth, Jitter & Packet Loss (iperf3 UDP) ==========
+Testing with UDP mode (10 seconds, 10 Mbps bandwidth)...
+Connecting to host 127.0.0.1, port 5201
+[  5] local 127.0.0.1 port 46635 connected to 127.0.0.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec  1.22 MBytes  10.2 Mbits/sec  39  
+[  5]   1.00-2.00   sec  1.19 MBytes  9.96 Mbits/sec  38  
+[  5]   2.00-3.00   sec  1.19 MBytes  9.96 Mbits/sec  38  
+[  5]   3.00-4.00   sec  1.19 MBytes  9.96 Mbits/sec  38  
+[  5]   4.00-5.00   sec  1.19 MBytes  9.96 Mbits/sec  38  
+[  5]   5.00-6.00   sec  1.19 MBytes  9.96 Mbits/sec  38  
+[  5]   6.00-7.00   sec  1.19 MBytes  9.96 Mbits/sec  38  
+[  5]   7.00-8.00   sec  1.22 MBytes  10.2 Mbits/sec  39  
+[  5]   8.00-9.00   sec  1.19 MBytes  9.96 Mbits/sec  38  
+[  5]   9.00-10.00  sec  1.19 MBytes  9.96 Mbits/sec  38  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec  11.9 MBytes  10.0 Mbits/sec  0.000 ms  0/382 (0%)  sender
+[  5]   0.00-10.00  sec  11.9 MBytes  10.0 Mbits/sec  0.013 ms  0/382 (0%)  receiver
+
+iperf Done.
+
+========== 3. Bandwidth (iperf3 TCP) ==========
+Testing with TCP mode (10 seconds)...
+Connecting to host 127.0.0.1, port 5201
+[  5] local 127.0.0.1 port 54592 connected to 127.0.0.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Retr  Cwnd
+[  5]   0.00-1.00   sec  3.04 GBytes  26.1 Gbits/sec    0   1.06 MBytes       
+[  5]   1.00-2.00   sec  3.22 GBytes  27.7 Gbits/sec    0   1.44 MBytes       
+[  5]   2.00-3.00   sec  3.18 GBytes  27.3 Gbits/sec    0   1.75 MBytes       
+[  5]   3.00-4.00   sec  3.01 GBytes  25.8 Gbits/sec    0   2.25 MBytes       
+[  5]   4.00-5.00   sec  3.11 GBytes  26.7 Gbits/sec    0   2.50 MBytes       
+[  5]   5.00-6.00   sec  3.04 GBytes  26.1 Gbits/sec    0   2.75 MBytes       
+[  5]   6.00-7.00   sec  3.15 GBytes  27.1 Gbits/sec    0   4.12 MBytes       
+[  5]   7.00-8.00   sec  2.98 GBytes  25.6 Gbits/sec    0   4.12 MBytes       
+[  5]   8.00-9.00   sec  3.35 GBytes  28.8 Gbits/sec    0   4.12 MBytes       
+[  5]   9.00-10.00  sec  3.32 GBytes  28.5 Gbits/sec    0   4.12 MBytes       
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Retr
+[  5]   0.00-10.00  sec  31.7 GBytes  27.2 Gbits/sec    0             sender
+[  5]   0.00-10.00  sec  31.7 GBytes  27.2 Gbits/sec                  receiver
+
+iperf Done.
+
+========================================
+Test completed. Full report saved in: report_performance.txt
