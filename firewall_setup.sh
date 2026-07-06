@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OUTPUT_FILE="firewall_rules.txt"
+OUTPUT_FILE="/home/alght/Desktop/HW_L4_01_linux/firewall_rules.txt"
 
 
 LOCAL_IP="192.168.1.100"   
