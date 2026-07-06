@@ -1,0 +1,27 @@
+========================================
+Routing Analysis Report - Mon Jul  6 06:35:51 PM +0330 2026
+========================================
+
+=== 1. Complete Routing Table ===
+default via 10.249.193.31 dev enx2eaa463dcf1d proto dhcp src 10.249.193.71 metric 100 
+10.249.193.0/24 dev enx2eaa463dcf1d proto kernel scope link src 10.249.193.71 metric 100 
+
+=== 2. Traceroute to 8.8.8.8 ===
+traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
+ 1  10.249.193.31  1.363 ms  1.502 ms  1.544 ms
+ 2  * * *
+ 3  10.230.219.65  74.026 ms  66.319 ms  74.105 ms
+ 4  * * *
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  8.8.8.8  129.375 ms  129.103 ms  132.579 ms
+
+=== 3. What is a Router? ===
+A router is a networking device that forwards data packets between computer networks.
+It operates at Layer 3 (Network Layer) of the OSI model.
+Routers use routing tables and protocols (like OSPF, BGP) to determine the best path for packet forwarding.
+They connect different networks together (e.g., home network to the Internet).
