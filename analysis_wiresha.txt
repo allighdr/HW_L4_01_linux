@@ -1,0 +1,17 @@
+Number of TCP connections established:
+0
+0
+
+DNS Queries and domains:
+0
+
+Packet Loss (Retransmissions detected):
+0
+
+Average TCP RTT (in seconds):
+No RTT data
+
+Total packets in HTTP capture:
+0
+Total packets in DNS capture:
+0
