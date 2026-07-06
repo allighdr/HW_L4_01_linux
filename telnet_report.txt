@@ -1,0 +1,10 @@
+========================================
+Port Connectivity Test via Telnet
+Target: 192.168.1.1
+Time: Mon Jul  6 01:57:13 PM +0330 2026
+========================================
+Testing Port 80 (HTTP)... FAILED
+Testing Port 22 (SSH)... FAILED
+Testing Port 3306 (MySQL)... FAILED
+========================================
+Test completed. Results saved in telnet_report.txt
