@@ -1,0 +1,284 @@
+========================================
+HTTPS Test Report
+Target: https://google.com
+Date: Thu Jul  9 11:57:47 AM +0330 2026
+========================================
+
+========== 1. HTTPS Request & SSL Certificate Chain ==========
+
+    Caution: You are using the Snap version of curl.
+    Due to Snap's sandbox nature, this version has some limitations.
+    For example, it may not be able to access hidden folders in your home directory
+    or other restricted areas of the os.
+
+    Which means you may encounter errors when using snap curl to download and execute some script.
+    For those cases, you might want to use the native curl package.
+    For details, see: https://github.com/boukendesho/curl-snap/issues/1
+    
+    To stop seeing this message, run the following command:
+    $ curl.snap-acked
+
+11:57:53.152134 *   Trying [2001:4860:4802:32::78]:443...
+11:57:53.153981 * Immediate connect fail for 2001:4860:4802:32::78: Network is unreachable
+11:57:53.154035 * connect to 2001:4860:4802:32::78 port 443 from :: port 0 failed: Network is unreachable
+11:57:58.146619 * Host google.com:443 was resolved.
+11:57:58.146682 * IPv6: 2001:4860:4802:32::78
+11:57:58.146730 * IPv4: 216.239.38.120
+11:57:58.146837 *   Trying 216.239.38.120:443...
+11:57:58.240741 * ALPN: curl offers h2,http/1.1
+11:57:58.255011 } [5 bytes data]
+11:57:58.255118 * TLSv1.3 (OUT), TLS handshake, Client hello (1):
+11:57:58.255174 } [1562 bytes data]
+11:57:58.255459 * SSL Trust Anchors:
+11:57:58.277335 *   CAfile: /etc/ssl/certs/ca-certificates.crt
+11:57:58.277374 *   CApath: /etc/ssl/certs
+11:57:59.400793 { [5 bytes data]
+11:57:59.401031 * TLSv1.3 (IN), TLS handshake, Server hello (2):
+11:57:59.401107 { [1210 bytes data]
+11:57:59.402842 * TLSv1.3 (IN), TLS change cipher, Change cipher spec (1):
+11:57:59.402899 { [1 bytes data]
+11:57:59.473305 * TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+11:57:59.473378 { [15 bytes data]
+11:57:59.473613 * TLSv1.3 (IN), TLS handshake, Certificate (11):
+11:57:59.473689 { [4868 bytes data]
+11:57:59.476923 * TLSv1.3 (IN), TLS handshake, CERT verify (15):
+11:57:59.477014 { [79 bytes data]
+11:57:59.478253 * TLSv1.3 (IN), TLS handshake, Finished (20):
+11:57:59.478336 { [52 bytes data]
+11:57:59.478725 * TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+11:57:59.478805 } [1 bytes data]
+11:57:59.479105 * TLSv1.3 (OUT), TLS handshake, Finished (20):
+11:57:59.479182 } [52 bytes data]
+11:57:59.479615 * SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / X25519MLKEM768 / id-ecPublicKey
+11:57:59.479704 * ALPN: server accepted h2
+11:57:59.479788 * Server certificate:
+11:57:59.479894 *   subject: CN=*.google.com
+11:57:59.479988 *   start date: Jun 15 08:38:57 2026 GMT
+11:57:59.480069 *   expire date: Sep  7 08:38:56 2026 GMT
+11:57:59.480165 *   issuer: C=US; O=Google Trust Services; CN=WR2
+11:57:59.480294 *   Certificate level 0: Public key type EC/prime256v1 (256/128 Bits/secBits), signed using sha256WithRSAEncryption
+11:57:59.480384 *   Certificate level 1: Public key type RSA (2048/112 Bits/secBits), signed using sha256WithRSAEncryption
+11:57:59.480466 *   Certificate level 2: Public key type RSA (4096/152 Bits/secBits), signed using sha384WithRSAEncryption
+11:57:59.480764 *   subjectAltName: "google.com" matches cert's "google.com"
+11:57:59.480893 * OpenSSL verify result: 0
+11:57:59.480979 * SSL certificate verified via OpenSSL.
+11:57:59.481338 * Established connection to google.com (216.239.38.120 port 443) from 192.168.43.43 port 41780 
+  % Total    % Received % Xferd  Average Speed  Time    Time    Time   Current
+                                 Dload  Upload  Total   Spent   Left   Speed
+  0      0   0      0   0      0      0      0           00:11              011:57:59.482408 * using HTTP/2
+11:57:59.482555 * [HTTP/2] [1] OPENED stream for https://google.com/
+11:57:59.482644 * [HTTP/2] [1] [:method: HEAD]
+11:57:59.482707 * [HTTP/2] [1] [:scheme: https]
+11:57:59.482771 * [HTTP/2] [1] [:authority: google.com]
+11:57:59.482834 * [HTTP/2] [1] [:path: /]
+11:57:59.482895 * [HTTP/2] [1] [user-agent: curl/8.21.0]
+11:57:59.482955 * [HTTP/2] [1] [accept: */*]
+11:57:59.483117 } [5 bytes data]
+11:57:59.483353 > HEAD / HTTP/2
+11:57:59.483353 > Host: google.com
+11:57:59.483353 > User-Agent: curl/8.21.0
+11:57:59.483353 > Accept: */*
+11:57:59.483353 > 
+11:57:59.483614 * Request completely sent off
+11:57:59.483751 } [5 bytes data]
+11:57:59.540513 * TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+11:57:59.540571 { [283 bytes data]
+11:57:59.540930 * TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+11:57:59.541009 { [283 bytes data]
+11:58:00.156364 < HTTP/2 301 
+11:58:00.156428 < location: https://www.google.com/
+11:58:00.156493 < content-type: text/html; charset=UTF-8
+11:58:00.156633 < content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-JoxI8XXlKyPkJ7HIh0VdIw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+11:58:00.156715 < date: Thu, 09 Jul 2026 08:27:59 GMT
+11:58:00.156796 < expires: Sat, 08 Aug 2026 08:27:59 GMT
+11:58:00.156873 < cache-control: public, max-age=2592000
+11:58:00.156947 < server: gws
+11:58:00.157023 < content-length: 220
+11:58:00.157105 < x-xss-protection: 0
+11:58:00.157186 < x-frame-options: SAMEORIGIN
+11:58:00.157271 < alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+11:58:00.157353 < 
+11:58:00.157482 } [5 bytes data]
+  0    220   0      0   0      0      0      0           00:12              0  0    220   0      0   0      0      0      0           00:12              0  0    220   0      0   0      0      0      0           00:12              0
+11:58:00.158729 * Connection #0 to host google.com:443 left intact
+HTTP/2 301 
+location: https://www.google.com/
+content-type: text/html; charset=UTF-8
+content-security-policy-report-only: object-src 'none';base-uri 'self';script-src 'nonce-JoxI8XXlKyPkJ7HIh0VdIw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+date: Thu, 09 Jul 2026 08:27:59 GMT
+expires: Sat, 08 Aug 2026 08:27:59 GMT
+cache-control: public, max-age=2592000
+server: gws
+content-length: 220
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+
+========== 2. Certificate Chain (via openssl) ==========
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:CN = *.google.com
+   i:C = US, O = Google Trust Services, CN = WR2
+   a:PKEY: id-ecPublicKey, 256 (bit); sigalg: RSA-SHA256
+   v:NotBefore: Jun 15 08:38:57 2026 GMT; NotAfter: Sep  7 08:38:56 2026 GMT
+-----BEGIN CERTIFICATE-----
+MIIIdDCCB1ygAwIBAgIQJtqQmR4PjZoSMycBqSnD7jANBgkqhkiG9w0BAQsFADA7
+MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQww
+CgYDVQQDEwNXUjIwHhcNMjYwNjE1MDgzODU3WhcNMjYwOTA3MDgzODU2WjAXMRUw
+EwYDVQQDDAwqLmdvb2dsZS5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATV
+4LXYyFb5gsIGyH7s0cMhzoUUVMrhO3trSw7nkUAmdISTQK2+mjPR94NmQ/Ie6EIt
+kibUK9KJWiryl7+m68r0o4IGYTCCBl0wDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQM
+MAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFFgHzgGmT5Tc2ynC
+DkAA4xHgNSxMMB8GA1UdIwQYMBaAFN4bHu15FdQ+NyTDIbvsNDltQrIwMFgGCCsG
+AQUFBwEBBEwwSjAhBggrBgEFBQcwAYYVaHR0cDovL28ucGtpLmdvb2cvd3IyMCUG
+CCsGAQUFBzAChhlodHRwOi8vaS5wa2kuZ29vZy93cjIuY3J0MIIEOAYDVR0RBIIE
+LzCCBCuCDCouZ29vZ2xlLmNvbYIWKi5hcHBlbmdpbmUuZ29vZ2xlLmNvbYIJKi5i
+ZG4uZGV2ghUqLm9yaWdpbi10ZXN0LmJkbi5kZXaCEiouY2xvdWQuZ29vZ2xlLmNv
+bYIYKi5jcm93ZHNvdXJjZS5nb29nbGUuY29tghgqLmRhdGFjb21wdXRlLmdvb2ds
+ZS5jb22CCyouZ29vZ2xlLmNhggsqLmdvb2dsZS5jbIIOKi5nb29nbGUuY28uaW6C
+DiouZ29vZ2xlLmNvLmpwgg4qLmdvb2dsZS5jby51a4IPKi5nb29nbGUuY29tLmFy
+gg8qLmdvb2dsZS5jb20uYXWCDyouZ29vZ2xlLmNvbS5icoIPKi5nb29nbGUuY29t
+LmNvgg8qLmdvb2dsZS5jb20ubXiCDyouZ29vZ2xlLmNvbS50coIPKi5nb29nbGUu
+Y29tLnZuggsqLmdvb2dsZS5kZYILKi5nb29nbGUuZXOCCyouZ29vZ2xlLmZyggsq
+Lmdvb2dsZS5odYILKi5nb29nbGUuaXSCCyouZ29vZ2xlLm5sggsqLmdvb2dsZS5w
+bIILKi5nb29nbGUucHSCGSouZ2VtaW5pLmNsb3VkLmdvb2dsZS5jb22CDSouZ3N0
+YXRpYy5jb22CFCoubWV0cmljLmdzdGF0aWMuY29tggoqLmd2dDEuY29tghEqLmdj
+cGNkbi5ndnQxLmNvbYIKKi5ndnQyLmNvbYIOKi5nY3AuZ3Z0Mi5jb22CECoudXJs
+Lmdvb2dsZS5jb22CFioueW91dHViZS1ub2Nvb2tpZS5jb22CCyoueXRpbWcuY29t
+ggphaS5hbmRyb2lkggthbmRyb2lkLmNvbYINKi5hbmRyb2lkLmNvbYITKi5mbGFz
+aC5hbmRyb2lkLmNvbYIEZy5jb4IGKi5nLmNvggZnb28uZ2yCCnd3dy5nb28uZ2yC
+FGdvb2dsZS1hbmFseXRpY3MuY29tghYqLmdvb2dsZS1hbmFseXRpY3MuY29tggpn
+b29nbGUuY29tghJnb29nbGVjb21tZXJjZS5jb22CFCouZ29vZ2xlY29tbWVyY2Uu
+Y29tggp1cmNoaW4uY29tggwqLnVyY2hpbi5jb22CCHlvdXR1LmJlggt5b3V0dWJl
+LmNvbYINKi55b3V0dWJlLmNvbYIRbXVzaWMueW91dHViZS5jb22CEyoubXVzaWMu
+eW91dHViZS5jb22CFHlvdXR1YmVlZHVjYXRpb24uY29tghYqLnlvdXR1YmVlZHVj
+YXRpb24uY29tgg95b3V0dWJla2lkcy5jb22CESoueW91dHViZWtpZHMuY29tggV5
+dC5iZYIHKi55dC5iZYIaYW5kcm9pZC5jbGllbnRzLmdvb2dsZS5jb22CFSouYWlz
+dHVkaW8uZ29vZ2xlLmNvbTATBgNVHSAEDDAKMAgGBmeBDAECATA2BgNVHR8ELzAt
+MCugKaAnhiVodHRwOi8vYy5wa2kuZ29vZy93cjIvR1N5VDFONFBCcmcuY3JsMIIB
+AwYKKwYBBAHWeQIEAgSB9ASB8QDvAHUA1219ENGn9XfCx+lf1wC/+YLJM1pl4dCz
+AXMXwMjFaXcAAAGeyqYKywAABAMARjBEAiA/F8aaYkiRdz1/jdNcs2Q0iSyCwyWd
+SCxnBgO/PceVuwIgdYgHPO56Dg//1mPt/DsV5h1wKAV4iONz3opHPI52V68AdgCv
+Z4g7V7BO3Y+m2X72LqjrgQrHcWDwJF5V1gwv54WHOgAAAZ7KpgusAAAEAwBHMEUC
+IQCb95OO1pIRP1iYK6q4riwqFvuGakqG485F0XfXXbjkWQIgCaVRB+5Otsa6akhS
+1m8Ygncc17D3nKbyMdzha4h8IEAwDQYJKoZIhvcNAQELBQADggEBAF5KcjNII4Nn
+Z5WN/+juamQAJ7pxoS872SEcC6SPh1rbTtylDqNX0ULhsbFNgpSkVAl4O2UYnhsf
+phlCc/7pqekcC5Rug97t6oXlu7j6x5jB/VeLggOUvlfOdsAcNMywSh4JH8KZW9yp
+Vl5S5CI6G3K1I1UPiGMFy9385oqrbRy8FltcqoxRvxWQV5eTozZD6x2Gm585JDXu
+rqJYvmL5y45dY1ElggBs+1xE2csxuaDItWhPtGou/kYf1dY0lF7ELK66c9DvChon
+Y4XmnPq72+G3nkrlB0fD1a8A95Rkq+PsxpYMPsrVnm3okpRXv9MykIh9vGj1AfyZ
+FArULCw5Hio=
+-----END CERTIFICATE-----
+ 1 s:C = US, O = Google Trust Services, CN = WR2
+   i:C = US, O = Google Trust Services LLC, CN = GTS Root R1
+   a:PKEY: rsaEncryption, 2048 (bit); sigalg: RSA-SHA256
+   v:NotBefore: Dec 13 09:00:00 2023 GMT; NotAfter: Feb 20 14:00:00 2029 GMT
+-----BEGIN CERTIFICATE-----
+MIIFCzCCAvOgAwIBAgIQf/AFoHxM3tEArZ1mpRB7mDANBgkqhkiG9w0BAQsFADBH
+MQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExM
+QzEUMBIGA1UEAxMLR1RTIFJvb3QgUjEwHhcNMjMxMjEzMDkwMDAwWhcNMjkwMjIw
+MTQwMDAwWjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNl
+cnZpY2VzMQwwCgYDVQQDEwNXUjIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQCp/5x/RR5wqFOfytnlDd5GV1d9vI+aWqxG8YSau5HbyfsvAfuSCQAWXqAc
++MGr+XgvSszYhaLYWTwO0xj7sfUkDSbutltkdnwUxy96zqhMt/TZCPzfhyM1IKji
+aeKMTj+xWfpgoh6zySBTGYLKNlNtYE3pAJH8do1cCA8Kwtzxc2vFE24KT3rC8gIc
+LrRjg9ox9i11MLL7q8Ju26nADrn5Z9TDJVd06wW06Y613ijNzHoU5HEDy01hLmFX
+xRmpC5iEGuh5KdmyjS//V2pm4M6rlagplmNwEmceOuHbsCFx13ye/aoXbv4r+zgX
+FNFmp6+atXDMyGOBOozAKql2N87jAgMBAAGjgf4wgfswDgYDVR0PAQH/BAQDAgGG
+MB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjASBgNVHRMBAf8ECDAGAQH/
+AgEAMB0GA1UdDgQWBBTeGx7teRXUPjckwyG77DQ5bUKyMDAfBgNVHSMEGDAWgBTk
+rysmcRorSCeFL1JmLO/wiRNxPjA0BggrBgEFBQcBAQQoMCYwJAYIKwYBBQUHMAKG
+GGh0dHA6Ly9pLnBraS5nb29nL3IxLmNydDArBgNVHR8EJDAiMCCgHqAchhpodHRw
+Oi8vYy5wa2kuZ29vZy9yL3IxLmNybDATBgNVHSAEDDAKMAgGBmeBDAECATANBgkq
+hkiG9w0BAQsFAAOCAgEARXWL5R87RBOWGqtY8TXJbz3S0DNKhjO6V1FP7sQ02hYS
+TL8Tnw3UVOlIecAwPJQl8hr0ujKUtjNyC4XuCRElNJThb0Lbgpt7fyqaqf9/qdLe
+SiDLs/sDA7j4BwXaWZIvGEaYzq9yviQmsR4ATb0IrZNBRAq7x9UBhb+TV+PfdBJT
+DhEl05vc3ssnbrPCuTNiOcLgNeFbpwkuGcuRKnZc8d/KI4RApW//mkHgte8y0YWu
+ryUJ8GLFbsLIbjL9uNrizkqRSvOFVU6xddZIMy9vhNkSXJ/UcZhjJY1pXAprffJB
+vei7j+Qi151lRehMCofa6WBmiA4fx+FOVsV2/7R6V2nyAiIJJkEd2nSi5SnzxJrl
+Xdaqev3htytmOPvoKWa676ATL/hzfvDaQBEcXd2Ppvy+275W+DKcH0FBbX62xevG
+iza3F4ydzxl6NJ8hk8R+dDXSqv1MbRT1ybB5W0k8878XSOjvmiYTDIfyc9acxVJr
+Y/cykHipa+te1pOhv7wYPYtZ9orGBV5SGOJm4NrB3K1aJar0RfzxC3ikr7Dyc6Qw
+qDTBU39CluVIQeuQRgwG3MuSxl7zRERDRilGoKb8uY45JzmxWuKxrfwT/478JuHU
+/oTxUFqOl2stKnn7QGTq8z29W+GgBLCXSBxC9epaHM0myFH/FJlniXJfHeytWt0=
+-----END CERTIFICATE-----
+ 2 s:C = US, O = Google Trust Services LLC, CN = GTS Root R1
+   i:C = BE, O = GlobalSign nv-sa, OU = Root CA, CN = GlobalSign Root CA
+   a:PKEY: rsaEncryption, 4096 (bit); sigalg: RSA-SHA256
+   v:NotBefore: Jun 19 00:00:42 2020 GMT; NotAfter: Jan 28 00:00:42 2028 GMT
+-----BEGIN CERTIFICATE-----
+MIIFYjCCBEqgAwIBAgIQd70NbNs2+RrqIQ/E8FjTDTANBgkqhkiG9w0BAQsFADBX
+MQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UE
+CxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIwMDYx
+OTAwMDA0MloXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoT
+GUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFIx
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAthECix7joXebO9y/lD63
+ladAPKH9gvl9MgaCcfb2jH/76Nu8ai6Xl6OMS/kr9rH5zoQdsfnFl97vufKj6bwS
+iV6nqlKr+CMny6SxnGPb15l+8Ape62im9MZaRw1NEDPjTrETo8gYbEvs/AmQ351k
+KSUjB6G00j0uYODP0gmHu81I8E3CwnqIiru6z1kZ1q+PsAewnjHxgsHA3y6mbWwZ
+DrXYfiYaRQM9sHmklCitD38m5agI/pboPGiUU+6DOogrFZYJsuB6jC511pzrp1Zk
+j5ZPaK49l8KEj8C8QMALXL32h7M1bKwYUH+E4EzNktMg6TO8UpmvMrUpsyUqtEj5
+cuHKZPfmghCN6J3Cioj6OGaK/GP5Afl4/Xtcd/p2h/rs37EOeZVXtL0m79YB0esW
+CruOC7XFxYpVq9Os6pFLKcwZpDIlTirxZUTQAs6qzkm06p98g7BAe+dDq6dso499
+iYH6TKX/1Y7DzkvgtdizjkXPdsDtQCv9Uw+wp9U7DbGKogPeMa3Md+pvez7W35Ei
+Eua++tgy/BBjFFFy3l3WFpO9KWgz7zpm7AeKJt8T11dleCfeXkkUAKIAf5qoIbap
+sZWwpbkNFhHax2xIPEDgfg1azVY80ZcFuctL7TlLnMQ/0lUTbiSw1nH69MG6zO0b
+9f6BQdgAmD06yK56mDcYBZUCAwEAAaOCATgwggE0MA4GA1UdDwEB/wQEAwIBhjAP
+BgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTkrysmcRorSCeFL1JmLO/wiRNxPjAf
+BgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzBgBggrBgEFBQcBAQRUMFIw
+JQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnBraS5nb29nL2dzcjEwKQYIKwYBBQUH
+MAKGHWh0dHA6Ly9wa2kuZ29vZy9nc3IxL2dzcjEuY3J0MDIGA1UdHwQrMCkwJ6Al
+oCOGIWh0dHA6Ly9jcmwucGtpLmdvb2cvZ3NyMS9nc3IxLmNybDA7BgNVHSAENDAy
+MAgGBmeBDAECATAIBgZngQwBAgIwDQYLKwYBBAHWeQIFAwIwDQYLKwYBBAHWeQIF
+AwMwDQYJKoZIhvcNAQELBQADggEBADSkHrEoo9C0dhemMXoh6dFSPsjbdBZBiLg9
+NR3t5P+T4Vxfq7vqfM/b5A3Ri1fyJm9bvhdGaJQ3b2t6yMAYN/olUazsaL+yyEn9
+WprKASOshIArAoyZl+tJaox118fessmXn1hIVw41oeQa1v1vg4Fv74zPl6/AhSrw
+9U5pCZEt4Wi4wStz6dTZ/CLANx8LZh1J7QJVj2fhMtfTJr9w4z30Z209fOU0iOMy
++qduBmpvvYuR7hZL6Dupszfnw0Skfths18dG9ZKb59UhvmaSGZRVbNQpsg3BZlvi
+d0lIKO2d1xozclOzgjXPYovJJIultzkMu34qQb9Sz/yilrbCgj8=
+-----END CERTIFICATE-----
+---
+Server certificate
+subject=CN = *.google.com
+issuer=C = US, O = Google Trust Services, CN = WR2
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: ECDSA
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 5160 bytes and written 392 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 256 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+
+========== 3. TLS Version Used ==========
+* TLSv1.3 (OUT), TLS handshake, Client hello (1):
+* TLSv1.3 (IN), TLS handshake, Server hello (2):
+* TLSv1.3 (IN), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):
+* TLSv1.3 (IN), TLS handshake, Certificate (11):
+* TLSv1.3 (IN), TLS handshake, CERT verify (15):
+* TLSv1.3 (IN), TLS handshake, Finished (20):
+* TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):
+* TLSv1.3 (OUT), TLS handshake, Finished (20):
+* SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384 / X25519MLKEM768 / id-ecPublicKey
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+* TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):
+
+========== 4. Certificate Expiration Date ==========
+notBefore=Jun 15 08:38:57 2026 GMT
+notAfter=Sep  7 08:38:56 2026 GMT
+
+========================================
+Test completed. Report saved in: https_test_report.txt
