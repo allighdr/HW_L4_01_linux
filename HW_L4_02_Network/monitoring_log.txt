@@ -1,0 +1,243 @@
+========================================
+Time: 2026-07-09 21:42:24
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 5
+Top 5 IP Addresses (by traffic):
+      5 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:42:28
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 5
+Top 5 IP Addresses (by traffic):
+      5 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:42:29
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 5
+Top 5 IP Addresses (by traffic):
+      5 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:42:33
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:42:34
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:42:38
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:42:39
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:42:43
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:42:44
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:42:48
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:42:49
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:42:53
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:42:54
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:42:59
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:43:04
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:43:09
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:43:14
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:43:19
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 4
+Top 5 IP Addresses (by traffic):
+      4 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:43:24
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 6
+Top 5 IP Addresses (by traffic):
+      6 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:43:29
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 6
+Top 5 IP Addresses (by traffic):
+      6 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:43:34
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 6
+Top 5 IP Addresses (by traffic):
+      6 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:43:39
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 6
+Top 5 IP Addresses (by traffic):
+      6 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:43:45
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 6
+Top 5 IP Addresses (by traffic):
+      6 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:43:50
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 6
+Top 5 IP Addresses (by traffic):
+      6 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:43:55
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 6
+Top 5 IP Addresses (by traffic):
+      6 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:44:00
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 6
+Top 5 IP Addresses (by traffic):
+      6 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:44:05
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 6
+Top 5 IP Addresses (by traffic):
+      6 192.168.43.43
+========================================
+
