@@ -394,3 +394,39 @@ Top 5 IP Addresses (by traffic):
       5 192.168.43.43
 ========================================
 
+========================================
+Time: 2026-07-09 21:45:36
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 5
+Top 5 IP Addresses (by traffic):
+      5 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:45:42
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 5
+Top 5 IP Addresses (by traffic):
+      5 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:45:47
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 5
+Top 5 IP Addresses (by traffic):
+      5 192.168.43.43
+========================================
+
+========================================
+Time: 2026-07-09 21:45:52
+Interface: 
+Bandwidth Usage: Download: 0 KB/s | Upload: 0 KB/s
+Active Connections: 5
+Top 5 IP Addresses (by traffic):
+      5 192.168.43.43
+========================================
+
